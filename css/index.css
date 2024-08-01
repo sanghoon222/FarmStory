@@ -69,6 +69,20 @@ header {
   margin: 0 auto;
 }
 
+.sub-top {
+  height: 184px;
+  background-image: url(../images/sub_top_bg.jpg);
+  position: relative;
+
+  & > div {
+    width: 326px;
+    height: 37px;
+    background-image: url(../images/sub_top_tit1.png);
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+  }
+}
 /* footer */
 footer {
   height: 120px;
