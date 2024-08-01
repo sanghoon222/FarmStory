@@ -32,7 +32,6 @@ header {
   display: flex;
   width: 240px;
   justify-content: space-between;
-  margin-left: auth;
   position: absolute;
   top: 17px;
   right: 0;
@@ -41,6 +40,7 @@ header {
 .header__top-container > ul > li:not(:last-child) > a::after {
   content: "|";
   left: 4px;
+  top: -1px;
   position: relative;
 }
 
