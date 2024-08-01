@@ -1,10 +1,7 @@
 header {
   height: 142px;
-  border: 1px solid blue;
   box-sizing: border-box;
 }
-
-
 
 .header__top-container {
   height: 92px;
@@ -52,16 +49,16 @@ header {
   position: relative;
 }
 
-.header_bottom-container__menu-line {
+.header__bottom-container__menu-line {
   position: absolute;
   top: -12px;
 }
 
-.header_bottom-container__menu {
+.header__bottom-container__menu {
   align-items: center;
 }
 
-.header_bottom-container__menu-badge {
+.header__bottom-container__menu-badge {
   position: absolute;
   top: -22px;
   left: 98px;
@@ -72,14 +69,11 @@ header {
   margin: 0 auto;
 }
 
-
 /* footer */
 footer {
   height: 120px;
-  border: 1px solid blue;
   box-sizing: border-box;
 }
-
 
 footer {
   width: 100%;
@@ -90,9 +84,8 @@ footer > div {
   width: 100%;
 }
 
-
-footer .terms {   
-  float: left;         
+footer .terms {
+  float: left;
   margin-top: 14px;
   color: #eee;
   font-size: 10px;
